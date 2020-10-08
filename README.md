@@ -19,9 +19,8 @@ git add <file1>
 git commit -m 'One day, I broke everything'
 git pull origin conflict
 Switched to a branch 'hometask_1'
-git remote add project-hometask_1 https://github.com/Lammirea/git_psu.git
-$ git push project-hometask_1 hometask_1:.gitignore
- git replace .gitignore gitignore_for_hometask_1.txt 
+git checkout .gitignore
+notepad gitignore_for_hometask_1.txt
 git add <file3>
 git commit -m 'Im worried'
 git pull origin hometask_1
