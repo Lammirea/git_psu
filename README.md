@@ -9,7 +9,7 @@ git add lib/hometask.css
 Switched to a new branch 'hometask_1'
 .gitignore #Lammirea
 git add <file2>
-git commit -m 'Im not a magician, I'm just learning'
+git commit -m 'Im not a magician, Im just learning'
 git pull origin hometask_1
 $ git push origin git_psu
 
@@ -18,3 +18,13 @@ Switched to a new branch 'conflict'
 git add <file1>
 git commit -m 'One day, I broke everything'
 git pull origin conflict
+Switched to a branch 'hometask_1'
+git remote add project-hometask_1 https://github.com/Lammirea/git_psu.git
+$ git push project-hometask_1 hometask_1:.gitignore
+ git replace .gitignore gitignore_for_hometask_1.txt 
+git add <file3>
+git commit -m 'Im worried'
+git pull origin hometask_1
+git checkout conflict
+Switched to branch 'conflict'
+$ git merge conflict 
